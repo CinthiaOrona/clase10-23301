@@ -1,8 +1,3 @@
-const fullData = 
-    {
-        text: "Texto 1",
-        text2: "Texto 2",
-    }
-
+const fullData = [ "Texto 1", "Texto 2", "Texto 3"];
 
 export default fullData;

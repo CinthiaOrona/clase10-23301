@@ -5,7 +5,6 @@ import Button from './components/button'
 import Card from './components/card'
 import fullData from './data/data'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -18,10 +17,10 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <h1>Hello World</h1>
-        <div>
+        <div className="buttonLayout">
           <Button></Button>
           </div>
-          <div>
+        <div className="cardLayout">
           <Card data={fullData}></Card>
         </div>
       </main>
