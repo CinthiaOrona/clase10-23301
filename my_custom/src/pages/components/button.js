@@ -8,7 +8,7 @@ export default function Button() {
 
     /* Esto es jsx */
     return (
-        <button>El Boton desde React con JSx</button>
+        <button type="button">El Boton desde React con JSx</button>
     );
 
 }

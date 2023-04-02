@@ -2,6 +2,8 @@ import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Button from './components/button'
+import Card from './components/card'
+import fullData from './data/data'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,8 +17,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        Hello World
-      <Button></Button>
+        <h1>Hello World</h1>
+        <div>
+          <Button></Button>
+          </div>
+          <div>
+          <Card data={fullData}></Card>
+        </div>
       </main>
     </>
   )
